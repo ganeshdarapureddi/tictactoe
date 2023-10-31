@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(216, 207, 223);
+}
 
 nav{
-    background-color: rgb(37, 9, 37);
-    color: white;
+    background-color: rgb(62, 37, 66);
+    color: rgb(194, 196, 208);
     height: 65px;
     font-size: 27px;
     display: flex;
@@ -83,7 +86,7 @@ nav ul{
 #reset {
     margin: 0 23px;
     padding: 1px 18px;
-    background: #f3e7f9;
+    background: #9c55c0;
     border-radius: 6px;
     cursor: pointer;
     font-family: 'Baloo Bhaina 2';
@@ -96,7 +99,7 @@ nav ul{
     height: 3px;
     width: 0;
     position: absolute;
-    background-color: #911d91;
+    background-color: #952095;
     transition: width 1s ease-in-out;
 }
 
